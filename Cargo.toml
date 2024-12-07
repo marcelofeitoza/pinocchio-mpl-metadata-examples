@@ -1,0 +1,15 @@
+[workspace]
+members = ["programs/*"]
+authors = ["Marcelo Feitoza <@marcelofeitoza>"]
+
+[workspace.dependencies]
+solana-nostd-sha256 = "0.1.3"
+# pinocchio = { git = "https://github.com/L0STE/pinocchio/", branch = "spl-token" }
+# pinocchio-token = { git = "https://github.com/L0STE/pinocchio/", branch = "spl-token" }
+pinocchio = { path = "../pinocchio/sdk/pinocchio" }
+pinocchio-mpl-metadata = { path = "../pinocchio/programs/mpl-metadata" }
+five8_const = "0.1.3"
+five8 = "0.2.1"
+mollusk-svm = "0.0.12"
+solana-sdk = "2.0.14"
+spl-token = "6.0.0"

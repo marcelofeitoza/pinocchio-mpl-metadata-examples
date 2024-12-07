@@ -1,0 +1,20 @@
+[package]
+name = "pinocchio-mpl-metadata-examples"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-nostd-sha256 = { workspace = true }
+pinocchio = { workspace = true }
+pinocchio-mpl-metadata = { workspace = true }
+five8_const = { workspace = true }
+five8 = { workspace = true }
+mpl-token-metadata = "5.1.0"
+
+[dev-dependencies]
+mollusk-svm = { workspace = true }
+solana-sdk = { workspace = true }
+spl-token = { workspace = true }
